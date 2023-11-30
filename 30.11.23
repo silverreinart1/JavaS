@@ -1,0 +1,14 @@
+objekt on kompleksne andmetüüp, mis võimaldab sul salvestada ja korraldada andmeid. Objektid on mõeldud reaalse maailma üksuste esindamiseks ja neid moodustavad võtme-väärtuse paarid, kus iga võti on string (või sümbol) ning iga väärtus võib olla mis tahes andmetüüp, sealhulgas teised objektid.
+objektidel on palju meetodeid, kuid kõik objektid ei pruugi neid meetodeid omada.
+1:Object.keys(objekt): Tagastab massiivi, mis sisaldab objekti omaduste (võtmete) nimesid.
+2:Object.values(objekt): Tagastab massiivi, mis sisaldab objekti omaduste väärtusi.
+3:Object.entries(objekt): Tagastab massiivi, mis sisaldab objekti omaduste paaride massiive (võti-väärtus).
+
+
+Deep copy ja shallow copy on kaks mõistet, mis viitavad andmete kopeerimise protsessile, eriti objektide ja massiivide puhul.
+
+
+Object destructuring on JavaScripti süntaks, mis võimaldab tõhusalt välja võtta (või "destructure") objekti omadused ja omistada need muutujatele.
+
+
+Array on andmestruktuur, mis võimaldab salvestada mitu väärtust ühte muutujasse. Need väärtused võivad olla mis tahes tüüpi andmed, sealhulgas numbrid, stringid, objektid või isegi teised massiivid. 
